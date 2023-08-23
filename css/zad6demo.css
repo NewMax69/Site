@@ -1,0 +1,57 @@
+.reg {
+    background-color: #18191c;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    padding: 5%;
+  }
+
+  .reg1 {
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 350px;
+  }
+
+  .reg1-tag {
+    display: block;
+    font-family: monospace;
+    text-align: right;
+  }
+
+  .form-row {
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .form-row.required span::after {
+    color: #ff0000;
+    content: '*';
+  }
+
+  input:not([type=checkbox]), textarea {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px 20px 5px 8px;
+    width: 100%;
+  }
+
+  textarea {
+    font-family: inherit;
+    resize: none;
+  }
+
+  input:invalid, textarea:invalid {
+    border-color: #ff0000;
+  }
+
+  .form-toolbar {
+    text-align: right;
+  }
+
+  .submission-result {
+    color: #90ee90;
+    display: none;
+    font-size: 0.875rem;
+    font-style: italic;
+  }
